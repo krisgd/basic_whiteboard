@@ -1,4 +1,6 @@
-basic_whiteboard
+basic whiteboard
 ================
 
-basic whiteboard using node.js and easeljs allows multiple users to draw collaboratively on a single board
+basic whiteboard using node.js and easeljs
+
+This is a very simple whiteboard that allows multiple users to connect and collaboratively draw on a single board.
