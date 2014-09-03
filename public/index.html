@@ -3,13 +3,20 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Basic Whiteboard</title>
+		
+		<!-- location of socket.io.js file change this if not local -->
+		<script src="http://localhost:3000/socket.io/socket.io.js"></script>
 		<link rel="stylesheet" href="styles.css"/>
 	</head>
 
 	<body>
-		<div>
-
+		
+		<div id="main_container">
+			<canvas id="whiteboard" width="800" height="600"></canvas>
 		</div>
+		<br />
+		<button id="clear_button">Clear</button>
+		
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
 		<script src="scripts.js" type="text/javascript"></script>
